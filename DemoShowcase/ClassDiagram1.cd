@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DemoShowcase.Admin.Admin">
+    <Position X="7.25" Y="8.75" Width="1.5" />
+    <InheritanceLine Type="System.Web.UI.MasterPage" ManuallyRouted="true">
+      <Path>
+        <Point X="10.25" Y="8.191" />
+        <Point X="10.25" Y="8.379" />
+        <Point X="8" Y="8.379" />
+        <Point X="8" Y="8.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAABIAAAAAAAAAIEAAIAAAA=</HashCode>
+      <FileName>Admin\Admin.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoShowcase.Admin.Catalog">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFCAABCAAAAEAAQACEEAAQIAAAAAKABBAAQhBBIAIgg=</HashCode>
+      <FileName>Admin\Catalog.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoShowcase.Admin.Dashboard">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Admin\Dashboard.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoShowcase.Admin.P">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAEAAAAAiEgAgCAAAAQAIAABIAABFAIAJgA=</HashCode>
+      <FileName>Admin\Serials.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoShowcase.Admin.Users">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <InheritanceLine Type="System.Web.UI.Page" ManuallyRouted="true">
+      <Path>
+        <Point X="8.75" Y="1.191" />
+        <Point X="8.75" Y="1.566" />
+        <Point X="9.75" Y="1.566" />
+        <Point X="9.75" Y="1.125" />
+        <Point X="10.75" Y="1.125" />
+        <Point X="10.75" Y="1.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAQAAAAAAQAAAAAAAAABAAQAABIAAIg=</HashCode>
+      <FileName>Admin\Users.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoShowcase.Connection">
+    <Position X="20.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoShowcase.Utils">
+    <Position X="18" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAQAAAAAAQIAAAAAAAAAAEQAAAAAAAg=</HashCode>
+      <FileName>Connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoShowcase.Global">
+    <Position X="14.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoShowcase.User.Catalog">
+    <Position X="4.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQAAAEAAQAAAAAAABABAAQAAAIAABg=</HashCode>
+      <FileName>User\CatalogSerial.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoShowcase.User.Default">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>User\Default.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoShowcase.User.Favorites">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="DemoShowcase.User.Favorites.CustomTemplate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>User\Favorites.aspx.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <InheritanceLine Type="System.Web.UI.Page" ManuallyRouted="true">
+      <Path>
+        <Point X="8.75" Y="1.191" />
+        <Point X="8.75" Y="1.375" />
+        <Point X="9.667" Y="1.375" Type="JumpStart" />
+        <Point X="9.833" Y="1.375" Type="JumpEnd" />
+        <Point X="10.667" Y="1.375" Type="JumpStart" />
+        <Point X="10.833" Y="1.375" Type="JumpEnd" />
+        <Point X="12.5" Y="1.375" />
+        <Point X="12.5" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAQAAAAAAQAgAAAAAEABAAQAAAIEAAg=</HashCode>
+      <FileName>User\Favorites.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoShowcase.User.Filter">
+    <Position X="4.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQAAAAAAQAAAAAAABABAAQAAAIAABg=</HashCode>
+      <FileName>User\Filter.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoShowcase.User.Login">
+    <Position X="2.25" Y="7" Width="1.5" />
+    <InheritanceLine Type="System.Web.UI.Page" ManuallyRouted="true">
+      <Path>
+        <Point X="8.75" Y="1.191" />
+        <Point X="8.75" Y="6.68" />
+        <Point X="3" Y="6.68" />
+        <Point X="3" Y="7" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAgAAAEAAAAAAAQIAAAAAQAAAAAACAABAAQAABJAAAg=</HashCode>
+      <FileName>User\Login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoShowcase.User.Profile">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAIAAAAAAAAQAAAAgIQAAAAAAAEAAAAQAACIAAAg=</HashCode>
+      <FileName>User\Profile.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoShowcase.User.Registration">
+    <Position X="13.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMgAAAFAAAAAAAQIAAAABQAQAAAAAMABAAQABBJgAMg=</HashCode>
+      <FileName>User\Registration.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoShowcase.User.SliderUserControl">
+    <Position X="15.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>User\SliderUserControl.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoShowcase.User.User">
+    <Position X="11.5" Y="8.75" Width="2" />
+    <InheritanceLine Type="System.Web.UI.MasterPage" ManuallyRouted="true">
+      <Path>
+        <Point X="10.25" Y="8.191" />
+        <Point X="10.25" Y="8.366" />
+        <Point X="12.5" Y="8.366" />
+        <Point X="12.5" Y="8.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAEAAAAAAABIABIAAAAAAQAAQAAAIAAAA=</HashCode>
+      <FileName>User\User.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.UI.Page" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="System.Web.UI.TemplateControl" ManuallyRouted="true">
+      <Path>
+        <Point X="17.25" Y="0.75" />
+        <Point X="17.25" Y="0.375" />
+        <Point X="9.75" Y="0.375" />
+        <Point X="9.75" Y="1.566" />
+        <Point X="8.75" Y="1.566" />
+        <Point X="8.75" Y="1.191" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Web.HttpApplication" Collapsed="true">
+    <Position X="16.75" Y="11" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Web.UI.MasterPage" Collapsed="true">
+    <Position X="9.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Object">
+    <Position X="19" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Web.UI.UserControl" Collapsed="true">
+    <Position X="15.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Web.UI.TemplateControl" Collapsed="true">
+    <Position X="16.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Web.UI.Control" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
